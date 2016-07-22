@@ -1,6 +1,6 @@
 {
     "name": "vscode-wso2-editor",
-    "displayName": "vscode-wso2-editor",
+    "displayName": "WSO2 Editor",
     "description": "Javascript based visual editor for wso2 products",
     "version": "0.0.1",
     "publisher": "WSO2",
