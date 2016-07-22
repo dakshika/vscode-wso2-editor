@@ -1,0 +1,29 @@
+{
+    "name": "vscode-wso2-editor",
+    "displayName": "vscode-wso2-editor",
+    "description": "Javascript based visual editor for wso2 products",
+    "version": "0.0.1",
+    "publisher": "WSO2",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.wso2Editor"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [{
+            "command": "extension.wso2Editor",
+            "title": "WSO2 Editor"
+        }]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "vscode": "^0.11.0"
+    }
+}
