@@ -18,7 +18,14 @@
         "commands": [{
             "command": "extension.wso2Editor",
             "title": "WSO2 Editor"
-        }]
+        }],
+         "menus": {
+            "editor/title": [{
+                "command": "extension.wso2Editor",
+                "alt": "markdown.showPreviewToSide",
+                "group": "navigation"
+            }]
+        }
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install"
